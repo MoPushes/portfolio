@@ -48,7 +48,6 @@ body {
     background: var(--bg);
     color: var(--text);
     font-family: var(--font-mono);
-    margin: 0 40px;
 }
 
 /* Nav */
@@ -197,6 +196,9 @@ body {
     color: var(--text-dim);
     max-width: 600px;
     margin-top: 28px;
+}
+.hero-tagline p + p {
+    margin-top: 16px;
 }
 .hero-actions {
     display: flex;
@@ -521,7 +523,6 @@ body {
 }
 
 @media (max-width: 640px) {
-    .page { margin: 0 16px; }
     .pdf-embed { height: 420px; }
     .nav { padding: 14px 20px; }
     .nav-brand { font-size: 19px; }
