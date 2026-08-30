@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thesis Manager / Mohammed Al Ali</title>
+<meta name="description" content="Case study: Thesis Manager, a web application that digitizes thesis administration at HTW Berlin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="page">
+
+  <nav class="nav">
+    <a href="./index.html" class="nav-brand">Mohammed Al Ali</a>
+    <div class="nav-links">
+      <a href="./index.html" class="nav-link">Home</a>
+      <a href="./Work.html" class="nav-link active">Work</a>
+      <a href="./About.html" class="nav-link">About</a>
+      <a href="./Contact.html" class="nav-link">Contact</a>
+      <a href="./docs/Mohammed_Al_Ali_CV_2026.pdf" target="_blank" class="resume-btn">Résumé</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <header class="hero-wrap">
+      <img src="images/projects/thesis-manager/logo.png" alt="Thesis Manager logo" class="case-logo">
+      <div class="eyebrow">Full-Stack Web Application</div>
+      <h1 class="hero-title">Thesis Manager</h1>
+      <p class="hero-tagline">
+        A single platform for thesis administration at HTW Berlin <br> connecting
+        students, examiners, the examination board and administrative staff
+        from application through to colloquium.
+      </p>
+      <div class="work-tags">
+        <div class="tag">Vue 3</div>
+        <div class="tag">Tailwind CSS</div>
+        <div class="tag">PocketBase</div>
+        <div class="tag">OIDC / OAuth 2.0</div>
+        <div class="tag">Docker</div>
+        <div class="tag">GitLab CI/CD</div>
+      </div>
+      <div class="hero-actions">
+        <a href="https://b5.f4.htw-berlin.de/" target="_blank" rel="noopener" class="btn btn-primary">Open the application</a>
+        
+      </div>
+      
+    </header>
+
+    <div class="page-wrap case-body">
+
+      <!-- OVERVIEW -->
+      <section class="section section-first">
+        <div class="section-header"><h2 class="section-title">Overview</h2></div>
+        <div class="work-desc">
+          <p class="bio-p">A thesis passes through four sets of hands student, examiner, examination board and administration each working from a different place. Thesis Manager puts everyone on the same record, so status is something you see instead of something you ask about.</p>
+        </div>
+        <div class="work-tags">
+          <div class="tag tag-step">01 Application</div>
+          <div class="tag tag-step">02 Review</div>
+          <div class="tag tag-step">03 Approval</div>
+          <div class="tag tag-step">04 Processing</div>
+          <div class="tag tag-step">05 Submission</div>
+          <div class="tag tag-step">06 Colloquium</div>
+          <div class="tag tag-step">07 Archive</div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Key features</h2></div>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3 class="project-title">SSO and HTW data import</h3>
+            <div class="project-desc">Users sign in with their existing HTW account, and their university data comes with them.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Smart routing by role</h3>
+            <div class="project-desc">The app resolves the user's role at login and sends them to the dashboard built for it.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Role-specific dashboards</h3>
+            <div class="project-desc">Card layouts instead of long tables each role sees only the work it owns.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Automated notifications</h3>
+            <div class="project-desc">Email on status changes and new requests, so nobody polls the system.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">PDF generation</h3>
+            <div class="project-desc">Forms and colloquium records generated from data already in the system.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">Excel export</h3>
+            <div class="project-desc">Administration exports application data for reporting outside the platform.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOWTIME -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">At IMI Showtime</h2></div>
+        <div class="work-desc">Presented live at HTW Berlin's IMI Showtime project fair.</div>
+        <div class="shot-grid">
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/login.png" alt="Thesis Manager showtime poster with the HTW logo and feature highlights"></div>
+            <figcaption class="case-meta">Login screen</figcaption>
+          </figure>
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/setup1.jpeg" alt="Booth setup with the live application running on two monitors and feature posters on the wall"></div>
+            <figcaption class="case-meta">Live demo at the booth</figcaption>
+          </figure>
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/team.jpeg" alt="Team members at the project fair"></div>
+            <figcaption class="case-meta">The team</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- SAMPLE OUTPUT -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Sample output</h2></div>
+        <div class="work-desc">An application form generated by the platform one of the PDFs students download straight from their dashboard.</div>
+        <div class="pdf-embed">
+          <iframe src="docs/Antrag_543211_30-8-2026.pdf" title="Sample Thesis Manager application PDF"></iframe>
+        </div>
+        <a href="docs/Antrag_543211_30-8-2026.pdf" target="_blank" class="view-all">Open in new tab →</a>
+      </section>
+
+      <!-- MY CONTRIBUTION -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">My contribution</h2></div>
+      
+        <ul class="case-list">
+          <li>Full-stack feature work across the Vue 3 frontend and PocketBase backend</li>
+          <li>PDF generation with jsPDF for application forms and colloquium records</li>
+          <li>Excel export with SheetJS for administrative reporting</li>
+          <li>Testing across the application</li>
+        </ul>
+      </section>
+
+      <!-- TECH STACK -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Technology stack</h2></div>
+        <div class="skills-grid">
+          <div>
+            <div class="skill-label">Frontend</div>
+            <div class="skill-tags">
+              <div class="skill-tag">Vue 3</div>
+              <div class="skill-tag">Vue Router</div>
+              <div class="skill-tag">Tailwind CSS</div>
+              <div class="skill-tag">Vite</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-label">Backend &amp; auth</div>
+            <div class="skill-tags">
+              <div class="skill-tag">PocketBase</div>
+              <div class="skill-tag">OIDC</div>
+              <div class="skill-tag">OAuth 2.0</div>
+              <div class="skill-tag">HTW SSO</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-label">Documents &amp; infra</div>
+            <div class="skill-tags">
+              <div class="skill-tag">jsPDF</div>
+              <div class="skill-tag">SheetJS</div>
+              <div class="skill-tag">Docker</div>
+              <div class="skill-tag">GitLab CI/CD</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Architecture</h2></div>
+        <div class="work-desc">Five roles, one data model, each reads and writes the same application record as it moves through the workflow.</div>
+        <div class="thumb thumb-16-9"><img src="images/projects/thesis-manager/structure.jpeg" alt="Diagram of Thesis Manager's data model: User, Prüfungsausschuss, Sachbearbeiter, Student, Professor and Antraege collections and how they connect"></div>
+      </section>
+
+      <!-- CHALLENGES -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Challenges</h2></div>
+        <div class="timeline-item">
+          <div class="timeline-period">01</div>
+          <div>
+            <h3 class="timeline-role">HTW single sign-on</h3>
+            <div class="timeline-desc">Login runs through HTW's identity provider, mapping the identity it returns onto four roles was a prerequisite for everything behind it.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">02</div>
+          <div>
+            <h3 class="timeline-role">VM coordination and CI/CD</h3>
+            <div class="timeline-desc">Getting the pipeline, container and a university-hosted VM to agree took setup in an environment we didn't control, once it held, deployment stopped needing attention.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">03</div>
+          <div>
+            <h3 class="timeline-role">User testing</h3>
+            <div class="timeline-desc">Testing with actual students and examiners changed the dashboards more than our internal discussions did.</div>
+          </div>
+        </div>
+      </section>
+
+     
+      <!-- CTA -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">Interested in the project?</h2></div>
+        <div class="work-desc">The application is live at HTW Berlin.</div>
+        <div class="hero-actions">
+          <a href="https://b5.f4.htw-berlin.de/" target="_blank" rel="noopener" class="btn btn-primary">Open the application</a>
+          <a href="./Contact.html" class="btn btn-secondary">Get in touch</a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>© 2026 Mohammed Al Ali</div>
+    <div>Built with care.</div>
+  </footer>
+
+</div>
+</body>
+</html>
