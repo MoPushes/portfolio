@@ -1,0 +1,10 @@
+html[lang="ar"] {
+    --font-display: 'Cairo', 'Baloo 2', sans-serif;
+}
+html[lang="ar"] * {
+    letter-spacing: 0 !important;
+}
+html[lang="ar"] .hero-title,
+html[lang="ar"] .hero-title .accent-word {
+    -webkit-text-stroke: 0;
+}

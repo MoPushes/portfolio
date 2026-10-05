@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thesis Manager / محمد العلي</title>
+<meta name="description" content="دراسة حالة: Thesis Manager، تطبيق ويب يرقمن إدارة الأطروحات في جامعة HTW برلين.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/arabic.css">
+</head>
+<body>
+<div class="page">
+
+  <nav class="nav">
+    <a href="./index-ar.html" class="nav-brand">Mohammed Al Ali</a>
+    <div class="nav-links">
+      <a href="./index-ar.html" class="nav-link">الرئيسية</a>
+      <a href="./Work-ar.html" class="nav-link active">الأعمال</a>
+      <a href="./About-ar.html" class="nav-link">عني</a>
+      <a href="./Contact-ar.html" class="nav-link">تواصل</a>
+      <a href="./ThesisManager.html" class="nav-link lang-switch">English</a>
+      <a href="./docs/Mohammed_Al_Ali_CV_2026.pdf" target="_blank" class="resume-btn">السيرة الذاتية</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <header class="hero-wrap">
+      <img src="images/projects/thesis-manager/logo.png" alt="شعار Thesis Manager" class="case-logo">
+      <div class="eyebrow">تطبيق ويب متكامل</div>
+      <h1 class="hero-title">Thesis Manager</h1>
+      <p class="hero-tagline">
+        منصة واحدة لإدارة الأطروحات في جامعة HTW برلين، تربط الطلاب والممتحنين ولجنة الامتحانات وفريق الإدارة من التقديم حتى الدفاع.
+      </p>
+      <div class="work-tags">
+        <div class="tag">Vue 3</div>
+        <div class="tag">Tailwind CSS</div>
+        <div class="tag">PocketBase</div>
+        <div class="tag">OIDC / OAuth 2.0</div>
+        <div class="tag">Docker</div>
+        <div class="tag">GitLab CI/CD</div>
+      </div>
+      <div class="hero-actions">
+        <a href="https://b5.f4.htw-berlin.de/" target="_blank" rel="noopener" class="btn btn-primary">فتح التطبيق</a>
+      </div>
+    </header>
+
+    <div class="page-wrap case-body">
+
+      <!-- OVERVIEW -->
+      <section class="section section-first">
+        <div class="section-header"><h2 class="section-title">نظرة عامة</h2></div>
+        <div class="work-desc">
+          <p class="bio-p">تمر الأطروحة بأربعة أطراف: الطالب، والممتحِن، ولجنة الامتحانات، والإدارة، ويعمل كل طرف من مكان مختلف. يضع Thesis Manager الجميع على السجل نفسه، فتصبح حالة الأطروحة شيئاً تراه بدلاً من أن تسأل عنه.</p>
+        </div>
+        <div class="work-tags">
+          <div class="tag tag-step">01 التقديم</div>
+          <div class="tag tag-step">02 المراجعة</div>
+          <div class="tag tag-step">03 الموافقة</div>
+          <div class="tag tag-step">04 المعالجة</div>
+          <div class="tag tag-step">05 التسليم</div>
+          <div class="tag tag-step">06 الدفاع</div>
+          <div class="tag tag-step">07 الأرشفة</div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">أبرز الميزات</h2></div>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3 class="project-title">تسجيل دخول موحد واستيراد بيانات HTW</h3>
+            <div class="project-desc">يسجل المستخدمون الدخول بحساب HTW الخاص بهم، وتأتي بيانات جامعتهم معهم.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">توجيه ذكي حسب الدور</h3>
+            <div class="project-desc">يحدد التطبيق دور المستخدم عند تسجيل الدخول ويرسله إلى لوحة التحكم المخصصة له.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">لوحات تحكم حسب الدور</h3>
+            <div class="project-desc">بطاقات بدلاً من الجداول الطويلة، ويرى كل دور الأعمال التي يملكها فقط.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">إشعارات تلقائية</h3>
+            <div class="project-desc">بريد إلكتروني عند تغيّر الحالة أو وصول طلب جديد، فلا أحد يحتاج إلى متابعة النظام يدوياً.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">توليد ملفات PDF</h3>
+            <div class="project-desc">نماذج وسجلات الدفاع تُنشأ من بيانات موجودة في النظام.</div>
+          </div>
+          <div class="project-card">
+            <h3 class="project-title">تصدير Excel</h3>
+            <div class="project-desc">تصدّر الإدارة بيانات الطلبات لإعداد التقارير خارج المنصة.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOWTIME -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">في IMI Showtime</h2></div>
+        <div class="work-desc">عُرض المشروع مباشرة في معرض مشاريع IMI بجامعة HTW برلين.</div>
+        <div class="shot-grid">
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/login.png" alt="ملصق Thesis Manager في معرض IMI Showtime يحمل شعار HTW وأبرز الميزات"></div>
+            <figcaption class="case-meta">شاشة تسجيل الدخول</figcaption>
+          </figure>
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/setup1.jpeg" alt="تجهيز الجناح مع التطبيق يعمل على شاشتين وملصقات الميزات على الحائط"></div>
+            <figcaption class="case-meta">عرض مباشر في الجناح</figcaption>
+          </figure>
+          <figure>
+            <div class="thumb thumb-4-3"><img src="images/projects/thesis-manager/team.jpeg" alt="أعضاء الفريق في معرض المشاريع"></div>
+            <figcaption class="case-meta">الفريق</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- SAMPLE OUTPUT -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">مثال على المخرجات</h2></div>
+        <div class="work-desc">نموذج طلب أنشأته المنصة، وهو أحد الملفات التي يحمّلها الطلاب مباشرة من لوحة التحكم.</div>
+        <div class="pdf-embed">
+          <iframe src="docs/Antrag_543211_30-8-2026.pdf" title="نموذج طلب من Thesis Manager"></iframe>
+        </div>
+        <a href="docs/Antrag_543211_30-8-2026.pdf" target="_blank" class="view-all">فتح في نافذة جديدة ←</a>
+      </section>
+
+      <!-- MY CONTRIBUTION -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">مساهمتي</h2></div>
+
+        <ul class="case-list">
+          <li>تطوير ميزات متكامل عبر واجهة Vue 3 وخلفية PocketBase</li>
+          <li>توليد ملفات PDF باستخدام jsPDF لنماذج الطلبات وسجلات الدفاع</li>
+          <li>تصدير Excel باستخدام SheetJS للتقارير الإدارية</li>
+          <li>الاختبار عبر التطبيق</li>
+        </ul>
+      </section>
+
+      <!-- TECH STACK -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">المكدس التقني</h2></div>
+        <div class="skills-grid">
+          <div>
+            <div class="skill-label">الواجهة الأمامية</div>
+            <div class="skill-tags">
+              <div class="skill-tag">Vue 3</div>
+              <div class="skill-tag">Vue Router</div>
+              <div class="skill-tag">Tailwind CSS</div>
+              <div class="skill-tag">Vite</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-label">الخلفية والمصادقة</div>
+            <div class="skill-tags">
+              <div class="skill-tag">PocketBase</div>
+              <div class="skill-tag">OIDC</div>
+              <div class="skill-tag">OAuth 2.0</div>
+              <div class="skill-tag">HTW SSO</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-label">المستندات والبنية التحتية</div>
+            <div class="skill-tags">
+              <div class="skill-tag">jsPDF</div>
+              <div class="skill-tag">SheetJS</div>
+              <div class="skill-tag">Docker</div>
+              <div class="skill-tag">GitLab CI/CD</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">البنية</h2></div>
+        <div class="work-desc">خمسة أدوار ونموذج بيانات واحد، يقرأ كل منها سجل الطلب نفسه ويكتب فيه أثناء انتقاله عبر سير العمل.</div>
+        <div class="thumb thumb-16-9"><img src="images/projects/thesis-manager/structure.jpeg" alt="مخطط نموذج بيانات Thesis Manager: مجموعات User وPrüfungsausschuss وSachbearbeiter وStudent وProfessor وAntraege وطريقة ارتباطها"></div>
+      </section>
+
+      <!-- CHALLENGES -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">التحديات</h2></div>
+        <div class="timeline-item">
+          <div class="timeline-period">01</div>
+          <div>
+            <h3 class="timeline-role">تسجيل الدخول الموحد لـ HTW</h3>
+            <div class="timeline-desc">يمر تسجيل الدخول عبر مزوّد هوية الجامعة، وكان ربط الهوية المُعادة بأربعة أدوار شرطاً أساسياً لكل ما يليه.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">02</div>
+          <div>
+            <h3 class="timeline-role">تنسيق الخادم الافتراضي وCI/CD</h3>
+            <div class="timeline-desc">احتاج الأمر إلى إعداد طويل ليتفق خط البناء والحاوية وخادم افتراضي تستضيفه الجامعة، في بيئة لا نتحكم فيها. ومتى استقر الأمر، توقف النشر عن طلب الانتباه.</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">03</div>
+          <div>
+            <h3 class="timeline-role">اختبار المستخدمين</h3>
+            <div class="timeline-desc">الاختبار مع طلاب وممتحنين حقيقيين غيّر لوحات التحكم أكثر مما فعلت نقاشاتنا الداخلية.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="section">
+        <div class="section-header"><h2 class="section-title">مهتم بالمشروع؟</h2></div>
+        <div class="work-desc">التطبيق متاح حالياً في جامعة HTW برلين.</div>
+        <div class="hero-actions">
+          <a href="https://b5.f4.htw-berlin.de/" target="_blank" rel="noopener" class="btn btn-primary">فتح التطبيق</a>
+          <a href="./Contact-ar.html" class="btn btn-secondary">تواصل معي</a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>© 2026 محمد العلي</div>
+    <div>صُنع بعناية.</div>
+  </footer>
+
+</div>
+</body>
+</html>
